@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #ffffff;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+/* LEFT SECTION */
+.left {
+    width: 28%;
+    background: #16243d;
+    color: white;
+    padding: 60px 40px;
+}
+
+.about {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.left h1 {
+    font-size: 46px;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+/* IMAGE SECTION */
+.image-section {
+    width: 30%;
+    background: #f5f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section img {
+    width: 237px;
+    margin-top:-193px;
+    border-radius: 4px;
+}
+
+/* CONTENT SECTION */
+.content {
+    width: 35%;
+    padding: 60px;
+}
+
+.content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.details {
+    margin-top: 25px;
+}
+
+.details p {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 14px 30px;
+    background: #0d6efd;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn i {
+    margin-right: 8px;
+}
+
+.btn:hover {
+    background: #0b5ed7;
+}
+
+/* ICON BAR */
+.icon-bar {
+    width: 7%;
+    border-left: 1px solid #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.icon-bar i {
+    width: 42px;
+    height: 42px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+}
+
+.icon-bar i:hover {
+    background: #f1f1f1;
+}
+
